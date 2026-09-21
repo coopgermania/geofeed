@@ -1,0 +1,14 @@
+# Geofeed - Cooperativa de Servicios Publicos Ltda de Germania
+# AS275049 - Provincia de Buenos Aires, Argentina
+# Formato: RFC 8805 (ip_prefix,alpha2code,region,city,postal_code)
+# Contacto: soporte@germania.com.ar
+# Ultima actualizacion: 2026-09-21
+#
+# El campo postal_code se deja vacio a proposito: RFC 8805 seccion 2.1.1.5 lo marca
+# como DEPRECATED y desaconseja publicarlo en feeds nuevos.
+#
+# 38.210.196.0/23 -> 38.210.196.0 - 38.210.197.255 (512 IPs) - Germania
+# 38.210.198.0/23 -> 38.210.198.0 - 38.210.199.255 (512 IPs) - General Pinto
+#
+38.210.196.0/23,AR,AR-B,Germania,
+38.210.198.0/23,AR,AR-B,General Pinto,
